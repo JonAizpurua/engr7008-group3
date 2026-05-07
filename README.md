@@ -17,7 +17,7 @@ the hardpoint set to the 2026 FIA Technical Regulations, and (iii) generate
 |------|-------|---------|
 | `extract_kinematics_2025.m` | 591 | Reads 2025 hardpoints and computes camber, caster, KPI, FVIC, SVIC, roll centre height, anti-dive, anti-squat, mechanical trail, scrub radius, and motion ratio. |
 | `rescale_to_2026.m` | 492 | Applies axis-specific scale factors to the 2025 hardpoints (X by wheelbase ratio, Y by track ratio per axle, Z unchanged) and writes the 2026 hardpoint set with enforced left-right symmetry. |
-| `plot_suspension_comparison.m` | [N] | Generates 3D overlay plots of 2025 vs 2026 wishbone geometry. |
+| `plot_suspension_comparison.m` | 194 | Generates 3D overlay plots of 2025 vs 2026 wishbone geometry. |
 | `Cinematica_Suspension.xlsx` | — | Input file: 2025 baseline suspension hardpoints (Front 2025 / Rear 2025 sheets). |
 
 ## Coordinate system
